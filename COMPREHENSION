@@ -1,0 +1,8 @@
+a = [20, 123, 56, 21, 55, 66, 88, 120, 34, 67, 90]
+
+for num in a:
+    if num % 3 == 0 or num % 5 == 0:
+        print(f"{num}:true")
+    else:
+        print(f"{num}:false")
+    
