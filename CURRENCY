@@ -1,0 +1,9 @@
+a=int(input("enter the amount"))
+b=note("500,200,100,50,20,10,5,1")
+dict()
+for i in note:
+    if amt>=i:
+        count=amt//i
+        dict[i]=count
+        amt-=count*1
+    print(dict)   
