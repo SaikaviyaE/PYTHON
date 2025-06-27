@@ -1,0 +1,8 @@
+import qrcode
+msg="THIS IS DAY 7------>KAVI"
+r=qrcode.QRCode()
+r.add_data(msg)
+r.make(fit=True)
+a=r.make_image(fill_color="black",back_color="white")
+a.save("nivi.png")
+print("Img is saved correctly")
