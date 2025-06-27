@@ -1,0 +1,21 @@
+class rect:
+    def set_dim(self,length,breadth):
+        self.length=length
+        self.breadth=breadth
+    def area (self):
+        return self.length*self.breadth
+        
+l=[ ]
+ch=int(input("enter the choise:"))
+for i in range (ch):
+    r=rect()
+    length=int(input("enter the lenght:"))
+    breadth=int(input("enter the breadth:"))
+    r.set_dim(length,breadth)
+    l.append(r)
+    
+for i in l:
+    b=i.area()
+    print(b)
+    
+
